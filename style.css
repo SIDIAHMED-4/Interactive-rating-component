@@ -1,0 +1,83 @@
+:root {
+  --White: hsl(0, 100%, 100%);
+  --Black: black;
+  --Grey-500: hsl(217, 12%, 63%);
+  --Grey-900: hsl(213, 19%, 18%);
+  --Grey-950: hsl(216, 12%, 8%);
+  --Font-size: 15px;
+  --Orange-500: hsl(25, 97%, 53%);
+}
+body {
+  font-family: "Inter", sans-serif;
+  font-size: var(--Font-size);
+  color: var(--Grey-500);
+  background-image: url(./images/gradient.svg);
+  
+}
+header {
+  display: grid;
+  gap: 2rem;
+}
+.container {
+  max-width: 363px;
+  margin: 0 auto;padding: 20px;
+  color: var(--Grey-500);
+  background-color: var(--Grey-900);
+  border-radius: 23px;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-top: 10rem;
+  text-align: center;
+  
+}
+.icon-star {
+  width: 1.5rem;
+  border: 0.6rem solid var(--Black);
+  border-radius: 50%;
+  background-color: var(--Black);
+}
+.img-thank-you {
+  padding-left: 5rem;
+}
+.P-thanks {
+  padding: 1rem;
+  color: var(--Orange-500);
+  border-radius: 2rem;
+  background-color: var(--Black );
+}
+h1 {
+  color: var(--White);
+  font-size: 2em;
+}
+
+.rating-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.rating-button {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50px;
+  color: var(--Grey-500);
+  background-color: var(--Black);
+  border: none;
+  
+}
+.submit-button {
+  background-color: var(--Orange-500);
+  color: var(--Grey-500);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 13px;
+  cursor: pointer;
+  font-size: 1em;
+  width: 100%;
+  margin-top: 2rem;
+}
+.active {
+  background-color: aqua;
+  color: black;
+
+}

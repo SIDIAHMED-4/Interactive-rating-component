@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Thanks</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+      <img class="img-thank-you"
+        src="./images/illustration-thank-you.svg"
+        alt="illustration-thank-you"
+      />
+      <p class="P-thanks"></p>
+    
+      <h1 class="h1-thanks">Thank you!</h1>
+    </header>
+      <p>
+        We appreciate you taking the time to give a rating. If you ever need
+        more support, don’t hesitate to get in touch!
+      </p>
+    </div>
+     <script >
+      
+      ratingButton = localStorage.getItem("rating-button")
+      result = document.querySelector(".P-thanks")
+
+      if (ratingButton) {
+        result.textContent = `you seleced ${ratingButton} out of 5`;
+        
+      } else {
+        result.textContent = "No rating selected.";
+      }
+     
+
+    </script> 
+    
+    
+  </body>
+</html>
