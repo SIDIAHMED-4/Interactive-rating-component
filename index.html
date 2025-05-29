@@ -48,10 +48,7 @@
       const submitButton = document.querySelector(".submit-button")  
       let resultButton = null;
 
-       window.addEventListener('pageshow', (event) => {
-       if (event.persisted) {
-          window.location.reload();
-       }
+       
          
       ratingButtons.forEach((button)  => {
         button.addEventListener("click" , () => {
@@ -73,14 +70,17 @@
 
           } else {
             alert("Please select a rating first. ")
-          }
-        
+        }
       })
       submitButton.addEventListener("click" , () => {
           submitButton.classList.add("active")
           
 
-      });
+      });window.addEventListener('pageshow', (event) => {
+       if (event.persisted) {
+          window.location.reload();
+       }
+         
     </script> 
     
   </body>
