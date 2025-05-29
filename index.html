@@ -48,6 +48,11 @@
       const submitButton = document.querySelector(".submit-button")  
       let resultButton = null;
 
+       window.addEventListener('pageshow', (event) => {
+  if (event.persisted) {
+    window.location.reload();
+  }
+         
       ratingButtons.forEach((button)  => {
         button.addEventListener("click" , () => {
           
