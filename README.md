@@ -11,8 +11,6 @@ This is a small front-end project that allows users to rate a service from 1 to 
 
     Built with HTML, CSS, and JavaScript
 
-📸 Preview
-
 💡 How it works
 
     User sees a rating card with numbers 1 to 5.
@@ -62,5 +60,5 @@ To view the project:
 
 ## 🔗 Live Demo
 
-[View the live project here](https://sidiahmed-4.github.io/Interactive-rating-component/)
+(https://sidiahmed-4.github.io/Interactive-rating-component/)
 
