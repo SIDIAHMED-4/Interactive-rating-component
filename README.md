@@ -58,7 +58,5 @@ To view the project:
 
     How to store and retrieve data using localStorage
 
-## 🔗 Live Demo
-
-(https://sidiahmed-4.github.io/Interactive-rating-component/)
+## 🔗 [Live Demo](https://sidiahmed-4.github.io/Interactive-rating-component/)
 
